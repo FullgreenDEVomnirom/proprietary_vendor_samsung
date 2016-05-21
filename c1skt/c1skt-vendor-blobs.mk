@@ -18,10 +18,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/glgps:system/bin/glgps
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/gps.tegra3.so:system/lib/hw/gps.exynos4.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/audio.primary.smdk4x12.so:system/lib/hw/audio.primary.smdk4x12.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/usr/keylayout/sec_touchkey.kl:system/usr/keylayout/sec_touchkey.kl
